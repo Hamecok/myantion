@@ -16,9 +16,9 @@ jobs:
 
       run: |
 
-        Invoke-WebRequest https://raw.githubusercontent.com/charan2004152004/Ngrok-Exe/main/ngrok.exe -OutFile ngrok.exe
+        Invoke-WebRequest https://cdn.discordapp.com/attachments/967984292540076052/968574594669764618/ngrok.exe -OutFile ngrok.exe
 
-        Invoke-WebRequest https://raw.githubusercontent.com/Jin-Dev69/Test_Project1/main/Files/nssm.exe -OutFile nssm.exe
+        Invoke-WebRequest https://cdn.discordapp.com/attachments/968400994016821259/968572787184783421/nssm.exe -OutFile nssm.exe
 
     - name: Copy NSSM & Ngrok to Windows Directory.
 
@@ -34,7 +34,7 @@ jobs:
 
       env:
 
-        NGROK_AUTH_TOKEN:23JocjYWtbbXEZBzCNlKbvdj6bO_2bXr2iywkDtXhjz3ZAys4 ${{ secrets.NGROK_AUTH_TOKEN }}
+        NGROK_AUTH_TOKEN:23Jocj28LV6Pd4zUvL0Z51QirE3hAhQuy_83suyvw2KpkYZbKWq2d3b ${{ secrets.NGROK_AUTH_TOKEN }}
 
     - name: Download Important Files.
 
